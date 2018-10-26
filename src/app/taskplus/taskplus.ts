@@ -1,17 +1,10 @@
 import {Component, Inject, forwardRef} from '@angular/core';
-import {OnsSplitterContent} from 'ngx-onsenui';
 import {MyApp} from '../app';
-
 @Component({
-  selector: 'ons-page[menu]',
-  template: require('./menu.html'),
-  styles: [
-    './menu.css'
-  ]
+  selector: 'ons-page[taskplus]',
+  template: require('./taskplus.html'),
 })
-export class MenuPage {
-
+export class TaskPlusPage {
   constructor(@Inject(forwardRef(() => MyApp)) private app : MyApp) {
   }
-
 }

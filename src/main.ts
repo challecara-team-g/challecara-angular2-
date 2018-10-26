@@ -11,7 +11,7 @@ import {OnsenModule} from 'ngx-onsenui';
 import {MyApp} from './app/app';
 import {HomePage} from './app/home/home';
 import {MenuPage} from './app/menu/menu';
-
+import {TaskPlusPage} from './app/taskplus/taskplus';
 
 // Enable production mode when in production mode.
 if (__PROCESS__.PROD) enableProdMode();
@@ -26,12 +26,12 @@ if (__PROCESS__.PROD) enableProdMode();
         MyApp,
         HomePage,
         MenuPage,
-
+        TaskPlusPage,
     ],
     entryComponents: [
         HomePage,
         MenuPage,
-
+        TaskPlusPage,
     ],
     bootstrap: [
         MyApp,

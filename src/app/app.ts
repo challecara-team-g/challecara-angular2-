@@ -2,7 +2,7 @@ import {Component, ViewChild} from '@angular/core';
 import {OnsSplitterContent, OnsSplitterSide} from 'ngx-onsenui';
 import {HomePage} from './home/home';
 import {MenuPage} from './menu/menu';
-
+import {TaskPlusPage} from './taskplus/taskplus';
 
 @Component({
   selector: 'app',
@@ -17,7 +17,8 @@ export class MyApp {
 
   pages = {
     home: HomePage,
-    menu: MenuPage
+    menu: MenuPage,
+    taskplus: TaskPlusPage
   };
 
   load(name) {

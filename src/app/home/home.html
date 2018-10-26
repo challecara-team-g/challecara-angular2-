@@ -1,7 +1,18 @@
 <ons-toolbar>
-  <div class="center">Home</div>
+  <div class="center">week</div>
+  <div class="left">
+    <ons-toolbar-button (click)="app.load('menu')">
+      <ons-icon icon="ion-navicon, material:md-menu"></ons-icon>
+    </ons-toolbar-button>
+  </div>
+  <div class="right">
+    <ons-toolbar-button (click)="app.load('taskplus')">
+      <ons-icon icon="fa-plus"></ons-icon>
+    </ons-toolbar-button>
+  </div>
 </ons-toolbar>
 
+<div class="background"></div>
 <div class="content">
-
+  <ons-button modifier="box">MyButton</ons-button>
 </div>
