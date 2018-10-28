@@ -14,5 +14,28 @@
 
 <div class="background"></div>
 <div class="content">
-  <ons-button modifier="box">MyButton</ons-button>
+  <ons-button class="box1">
+    <p>Title</p>
+    <p>user_ID</p>
+  </ons-button>
+
+  <ons-button class="box2">MyButton</ons-button>
 </div>
+<style>
+  ons-button{
+  position: absolute;
+  width: 156px;
+  height: 175px;
+  background: #F4F4F4;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 14px;
+  }
+  ons-button.box1{
+  left: 19px;
+  top: 27px;
+  }
+  ons-button.box2{
+  left: 201px;
+  top: 27px;
+  }
+</style>
