@@ -1,5 +1,15 @@
 <ons-toolbar>
-  <div class="center">week</div>
+  <div class="center">
+    <ons-select>
+      <option value="Monday">Monday</option>
+      <option value="Tuesday">Tuesday</option>
+      <option value="Wednesday">Wednesday</option>
+      <option value="Thursday">Thursday</option>
+      <option value="Friday">Friday</option>
+      <option value="Saturday">Saturday</option>
+      <option value="Sunday">Sunday</option>
+    </ons-select>
+  </div>
   <div class="left">
     <ons-toolbar-button (click)="app.load('menu')">
       <ons-icon icon="ion-navicon, material:md-menu"></ons-icon>
@@ -19,7 +29,7 @@
     <p>user_ID</p>
   </ons-button>
 
-  <ons-button class="box2">MyButton</ons-button>
+  <ons-button class="box2">MyButton2</ons-button>
 </div>
 <style>
   ons-button{
@@ -34,8 +44,11 @@
   left: 19px;
   top: 27px;
   }
+
   ons-button.box2{
   left: 201px;
   top: 27px;
+  color: red;
   }
+
 </style>
