@@ -11,6 +11,11 @@ left: 19px;
 top: 27px;
 }
 
+p{
+  text-align: center;
+  color:red;
+}
+
 ons-button.box2{
 left: 201px;
 top: 27px;

@@ -10,3 +10,9 @@ export class HomePage {
   constructor(@Inject(forwardRef(() => MyApp)) private app : MyApp) {
   }
 }
+
+//export const Tasks: Task[]=[
+//  {index:1,title:'wash'},
+//  {index:2,title:'clean'},
+//  {index:3,title:'eat'}
+//];
