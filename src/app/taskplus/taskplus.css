@@ -1,0 +1,86 @@
+div.box{
+  position: absolute;
+  width: 320px;
+  height: 427px;
+  left: 28px;
+  top: 55px;
+
+  background: #277FBF;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+div.icon{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 111px;
+  top: -50px;
+
+  background: black;
+  border-radius: 50%;
+}
+ons-button{
+  position: absolute;
+  width: 275px;
+  height: 44px;
+  left: 50px;
+  top: 515px;
+  text-align: center;
+  background: #34AAFF;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 26px;
+}
+p{
+  position: absolute;
+  width: 69px;
+  height: 24px;
+  left: 40px;
+  top: 196px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 24px;
+  letter-spacing: 0.012em;
+
+  color: #FFFFFF;
+
+}
+p.title{
+  top: 50px;
+}
+
+p.user{
+  top: 142px;
+}
+p.comment{
+  top: 234px;
+}
+
+input{
+  position: absolute;
+  width: 240px;
+  height: 32px;
+  left: 40px;
+
+
+  background: rgba(255, 255, 255, 0.27);
+  border-radius: 5px;
+
+}
+input.title{
+  top: 110px;
+}
+input.user{
+  top: 202px;
+}
+textarea{
+  position: absolute;
+  width: 240px;
+  height: 90px;
+  left: 40px;
+  top: 294px;
+
+  background: rgba(255, 255, 255, 0.27);
+  border-radius: 5px;
+
+}
