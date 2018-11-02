@@ -5,9 +5,8 @@ import {MyApp} from '../app';
 @Component({
   selector: 'ons-page[menu]',
   template: require('./menu.html'),
-  styles: [
-    './menu.css'
-  ]
+  styleUrls:['../src/app/menu/menu.css']
+
 })
 export class MenuPage {
 
