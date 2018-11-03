@@ -1,9 +1,18 @@
+body{
+  width:100%; /*ページ全体の幅は100%と指定する*/
+  text-align:center; /*ページ全体を中央揃えにする*/
+}
+#wrap{
+  width: 320px;	   /*全体の幅を指定する*/
+  margin: 0 auto;    /*マージンの指定をする、ブラウザ対策*/
+  text-align:center;   /*全体を左揃えにする。*/
+}
 div.box{
   position: absolute;
   width: 320px;
   height: 427px;
-  left: 28px;
-  top: 55px;
+
+  top: 65px;
 
   background: #277FBF;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
@@ -20,11 +29,11 @@ div.icon{
   border-radius: 50%;
 }
 ons-button{
-  position: absolute;
+  position: relative;
   width: 275px;
   height: 44px;
-  left: 50px;
-  top: 515px;
+
+  top: 525px;
   text-align: center;
   background: #34AAFF;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
