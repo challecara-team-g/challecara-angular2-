@@ -1,7 +1,7 @@
 import {Weeks} from './week';
 
 export const Weeks : Weeks[] = [
-  {week:'Monday'},
+  {week:'Mond'},
   {week:'Tuesday'},
   {week:'Wednesday'},
   {week:'Thursday'},
