@@ -3,7 +3,8 @@ import {OnsSplitterContent} from 'ngx-onsenui';
 import {MyApp} from '../app';
 import { WEEK } from '../mock-weeks';
 import { Week } from '../week';
-// import {Weeks} from '../week-mock'
+import { TASK } from '../mock-tasks';
+import { TaskContent } from '../task-content';
 
 @Component({
   selector: 'ons-page[home]',
@@ -27,19 +28,20 @@ import { Week } from '../week';
   </ons-toolbar>
   <div class="background"></div>
   <div class="content">
-    <ons-button class="box1">
-      <p>picture</p>
-      <p>Title</p>
-      <p>user_ID</p>
+    <ons-button *ngFor="let task of tasks">{{task.id}}</ons-button>
+
+    <ons-button>
+      <p>MyButton</p>
     </ons-button>
-    <ons-button class="box2">MyButton2</ons-button>
   </div>
   `,
   styleUrls:['../src/app/home/home.css']
 })
+
 export class HomePage implements OnInit{
 
   weeks=WEEK;
+  tasks=TASK;
 
   constructor(@Inject(forwardRef(() => MyApp)) private app : MyApp) {
   }
