@@ -1,3 +1,4 @@
-export class Weeks{
-  week:string;
+export class Week{
+  id: number;
+  day:string;
 }

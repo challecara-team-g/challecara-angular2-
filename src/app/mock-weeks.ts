@@ -1,11 +1,11 @@
-import {Weeks} from './week';
+import {Week} from './week';
 
-export const Weeks : Weeks[] = [
-  {week:'Mond'},
-  {week:'Tuesday'},
-  {week:'Wednesday'},
-  {week:'Thursday'},
-  {week:'Friday'},
-  {week:'Saturday'},
-  {week:'Sunday'}
+export const WEEK : Week[] = [
+  {id:1, day:'Monday'},
+  {id:2, day:'Tuesday'},
+  {id:3, day:'Wednesday'},
+  {id:4, day:'Thursday'},
+  {id:5, day:'Friday'},
+  {id:6, day:'Saturday'},
+  {id:7, day:'Sunday'}
 ];
