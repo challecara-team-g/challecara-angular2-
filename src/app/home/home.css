@@ -2,13 +2,13 @@ ons-button{
 position: relative;
 display: inline-block;
 box-sizing: border-box;
-width: 50%;
+width: 41.6%;
 height: 175px;
 background: #F4F4F4;
 box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
 border-radius: 14px;
 float:left;
-padding: 16px;
+margin: 15.75px;
 }
 
 
