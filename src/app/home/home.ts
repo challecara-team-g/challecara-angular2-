@@ -28,12 +28,13 @@ import { TaskContent } from '../task-content';
   </ons-toolbar>
   <div class="background"></div>
   <div class="content">
-    <ons-button *ngFor="let task of tasks" class="task">
-    <p>{{task.picture}}</p>
-    <p>{{task.title}}</p>
-    <p>{{task.user_id}}</p>
-    </ons-button>
-
+    <div *ngFor="let task of tasks" modifier="task">
+      <ons-button >
+        <p>{{task.picture}}</p>
+        <p>{{task.title}}</p>
+        <p>{{task.user_id}}</p>
+      </ons-button>
+    </div>
   </div>
   `,
   styleUrls:['../src/app/home/home.css']
